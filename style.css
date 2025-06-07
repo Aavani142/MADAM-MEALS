@@ -1,0 +1,263 @@
+
+*{
+    margin: 4px;
+    padding: 2px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: url('images/backgroundimghome.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+#main{
+    font-family: "Alfa Slab One", serif;
+    font-weight: 300;
+    font-style: normaL;
+    font-size: 400%;
+    color: #550b14;
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin: 2%;
+    padding: 2px;
+}
+
+#main:hover{
+    transform: scale(1.1);
+    color: #53161D;
+    
+}
+
+
+ul{
+    list-style: none;
+    padding: 30px;
+    text-align: center;
+    justify-content: space-evenly;  
+
+    
+
+}
+
+li{
+    display: inline;
+    margin: 0 10px;
+    gap: 10px;
+    padding: 30px;
+   
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+li a:hover{
+    color: #550b14; 
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#heading{
+    font-family: "Gentium Plus", serif;
+  font-weight: 700;
+  font-style: bold;
+  color: rgb(77,10,24);
+  font-size: 300%;
+  margin-left: 250px;
+  margin-top: 100px;
+  margin-right: 0px;
+  padding-right: 0%;
+
+}
+
+#heading2{
+    font-family: "Gentium Plus", serif;
+    font-weight: 700px;
+    font-style: bold;
+    color: rgb(77,10,24);
+    font-size: 300%;
+    margin-left: 250px;
+    margin-top: 0px;
+    padding: 0%;
+    line-height: 96%;
+    margin-bottom: 2%;
+    margin-right: 0px;
+    padding-right: 0%;
+}
+
+.joinus{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 40px;
+    font-size: medium;
+    color: #040404;
+    text-align: left;
+    margin-left: 250px;
+    padding: 0;
+    margin-bottom: 1%;
+    margin-right: 0px;
+    padding-right: 0%;
+}
+
+img{
+    border-radius: 15px 50px 30px;
+    width: 25%;
+    height: auto;
+    display: block;
+    float: right;
+    margin-right: 100px;
+    margin-top: 0px;
+    margin-bottom: 29px;
+    height:auto;
+}
+
+#menu{
+    background-color: #550b14;
+    text-transform: uppercase;
+    margin-left: 350px;
+    margin-top: 50px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 0%;
+    border-color: #550b14;
+    border-style: solid;
+    transition: transform 0.3s ease ;
+    margin-bottom: 10%;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: 10%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#menu:hover{
+    transform: scale(1.1);
+}
+
+
+a{
+    text-decoration: none;
+    color: #010101;
+    font-weight: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+
+@media only screen and (max-width: 600px) {
+  #main {
+    font-size: 200%;
+    margin: 10px 0;
+  }
+
+  body{
+    background-repeat: no-repeat;
+    background-size: cover;         
+    background-position: center;    
+    background-attachment: scroll;  
+    min-height: 100vh; 
+  }
+
+  ul {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  li {
+    display: block;
+    padding: 10px 0;
+  }
+
+  #heading, #heading2 {
+    font-size: 150%;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .joinus {
+    font-size: small;
+    text-align: center;
+    margin: 5px 10px;
+  }
+
+  img {
+    width: 90%;
+    float: none;
+    margin: 20px auto;
+    display: block;
+  }
+
+  #menu {
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+  }
+
+  .socials {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* ----- Tablet (601px to 1024px) ----- */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  #heading, #heading2 {
+    font-size: 200%;
+    margin-left: 50px;
+    text-align: center;
+  }
+  body{
+    background-repeat: no-repeat;
+    background-size: cover;         
+    background-position: center;    
+    background-attachment: scroll;  
+    min-height: 100vh; 
+  }
+
+  .joinus {
+    margin-left: 50px;
+    text-align: center;
+  }
+
+  img {
+    width: 50%;
+    float: none;
+    margin: 20px auto;
+    display: block;
+  }
+
+  #menu {
+    width: 50%;
+    margin: 30px auto;
+  }
+
+  .socials {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+
+
+
+
+
+
+
+

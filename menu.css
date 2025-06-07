@@ -1,0 +1,119 @@
+body{
+
+    background-color: #e9d8d5;
+    background-image: url('images/background\ image\ menu.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.herohead{
+   text-align: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: 400%;
+    color:#f2f1ed;
+    padding-top: 1%;
+    font-family: "Savate", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: large;
+  transition: transform 0.3s ease;
+}
+
+.herohead:hover{
+    transform: scale(1.1);
+}
+
+#menubar{
+    background-image: url('images/menu.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+.herodish{
+    text-align: center;
+
+}
+
+.menusub{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: 400%;
+    color:#e0ce86;
+    padding-top: 1%;
+    font-family: "Savate", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: medium;
+}
+
+.menudish{
+    justify-content: left;
+    color: #e9d8d5;
+    padding: 1%;
+}
+
+
+
+/* Small devices (phones) */
+@media (max-width: 600px) {
+  body {
+    background-attachment: scroll; /* fixed backgrounds can cause issues on mobiles */
+  }
+  #menubar {
+    background-size: cover; /* better fit on small screens */
+    background-attachment: scroll;
+    padding: 10px;
+  }
+  .herohead {
+    font-size: 1.8rem;
+    padding-top: 10px;
+  }
+  .menusub {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-top: 8px;
+  }
+  .menudish {
+    font-size: 1rem;
+    padding: 6px 0;
+    text-align: left;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  #menubar {
+    background-size: contain;
+    padding: 20px;
+  }
+  .herohead {
+    font-size: 2.5rem;
+    padding-top: 15px;
+  }
+  .menusub {
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-top: 10px;
+  }
+  .menudish {
+    font-size: 1.1rem;
+    padding: 8px 0;
+  }
+}
+
+
+
+
+
+
+
+
