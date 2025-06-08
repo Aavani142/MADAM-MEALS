@@ -3,7 +3,7 @@
 *Madam Meals* is a modern and visually engaging restaurant landing page built using pure HTML and CSS. It presents a seamless, aesthetic interface tailored for cozy eateries, home-style kitchens, or boutique cafes. Designed with warmth and elegance in mind, the site features a rich user experience 
 
 ## Live Demo
- https://madam-meals.vercel.app/aboutus.html
+https://madam-meals.vercel.app/
 
 ## Features
 *Full-Page Hero Section* – Eye-catching landing area with strong branding and clear call-to-action
